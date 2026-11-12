@@ -2,3 +2,18 @@
 
 /* Secure account and memory archive */
 .auth-open{margin-left:12px;background:#2b2144;color:#e1d5ff;border:1px solid #59447e;border-radius:8px;padding:8px 12px;cursor:pointer}.auth-panel{position:fixed;inset:0;z-index:20;background:#05050bdc;display:grid;place-items:center;padding:18px}.auth-panel.hidden{display:none}.auth-card{position:relative;width:min(440px,100%);background:#151421;border:1px solid #5b477e;border-radius:17px;padding:30px;box-shadow:0 25px 100px #000b}.auth-card h2{margin-top:12px}.auth-card form{display:grid;gap:15px;margin-top:22px}.auth-card label{display:grid;gap:7px;color:#c9c4d8;font-size:12px}.auth-card input,.memory-form textarea{width:100%;background:#0b0b14;color:#f2f0fa;border:1px solid #39334c;border-radius:9px;padding:12px;font:inherit}.auth-card .primary,.memory-form .primary{padding:12px 17px;border:0;border-radius:9px;background:#a78bfa;color:#100d19;font-weight:700;cursor:pointer}.auth-close{position:absolute;right:14px;top:10px;border:0;background:none;color:#c9c4d8;font-size:25px;cursor:pointer}.auth-card #auth-message,.error{color:#ffaaaa;font-size:12px}.memory-section{margin-top:36px;padding:22px;border:1px solid #44355f;border-radius:16px;background:#11111c}.memory-count{font:12px 'DM Mono',monospace;color:#c5b1ff;background:#261d3a;padding:5px 9px;border-radius:30px}.memory-form{display:grid;gap:10px;margin:15px 0}.memory-form textarea{resize:vertical}.memory-form .primary{justify-self:end}.memory-list{display:grid;gap:10px}.memory-card{padding:15px 17px;border:1px solid #302b40;border-radius:11px;background:#151521}.memory-card p{white-space:pre-wrap;line-height:1.6;margin:0 0 13px;color:#e5e1ef}.memory-foot{display:flex;justify-content:space-between;align-items:center}.memory-foot time{font:10px 'DM Mono',monospace;color:#8e89a0}.memory-foot button{border:0;background:none;color:#e39a9a;cursor:pointer}.empty-memory{color:#9c9aaf;font-size:13px}.auth-card .text-link{border:0;background:none;color:#c8b4ff;cursor:pointer;margin-top:14px}
+
+/* Local-first task tools */
+.local-tools{margin-top:30px;padding:22px;border:1px solid #44355f;border-radius:16px;background:#11111c}
+.task-form{display:flex;gap:9px;margin:14px 0}
+.task-form input{flex:1;min-width:0;background:#0b0b14;color:#f2f0fa;border:1px solid #39334c;border-radius:9px;padding:12px;font:inherit}
+.task-form .primary{padding:10px 16px;border:0;border-radius:9px;background:#a78bfa;color:#100d19;font-weight:700;cursor:pointer}
+.task-list{display:grid;gap:8px}
+.task-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 13px;border:1px solid #302b40;border-radius:10px;background:#151521}
+.task-row label{display:flex;align-items:center;gap:10px;min-width:0;color:#e5e1ef}
+.task-row label span{overflow-wrap:anywhere}
+.task-row input{accent-color:#a78bfa}
+.task-row button{flex:none;border:0;background:none;color:#e39a9a;cursor:pointer;font:inherit;font-size:12px}
+.task-done{text-decoration:line-through;color:#858094}
+.local-note{font-size:11px;margin-bottom:0}
+@media(max-width:560px){.task-form{flex-direction:column}.task-form .primary{align-self:flex-end}}
