@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090910">
+<title>Jarvis — Personal AI</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="orb">J</div><div><b>JARVIS</b><small>PERSONAL INTELLIGENCE</small></div></div>
+    <div class="nav-label">WORKSPACE</div>
+    <button class="nav active" data-view="overview">◈ <span>Overview</span></button>
+    <button class="nav" data-view="personal">◉ <span>Personal</span></button>
+    <button class="nav" data-view="jobs">▣ <span>Jobs</span></button>
+    <button class="nav" data-view="reselling">◇ <span>Reselling</span></button>
+    <button class="nav" data-view="trading">⌁ <span>Trading</span></button>
+    <div class="sidebar-bottom"><div class="status-dot"></div><span>Local preview</span><small>Integrations not connected</small></div>
+  </aside>
+  <main>
+    <header><div><div class="eyebrow">THURSDAY · 12 NOVEMBER 2026</div><h1 id="heading">Good morning.</h1><p class="muted">Your command centre. One assistant, everything connected.</p></div><div class="profile"><div class="avatar">A</div><div><b>Account</b><small>Preview mode</small></div></div></header>
+    <section id="overview" class="view">
+      <div class="hero"><div><div class="eyebrow purple">CENTRAL INTELLIGENCE</div><h2>What would you like<br>to get done?</h2><p>Talk to Jarvis or type a request. Your assistants share one context.</p><div class="composer"><input id="ask" placeholder="Ask Jarvis anything…" aria-label="Ask Jarvis"><button id="send">Send ↗</button><button class="mic" id="mic" title="Voice input">◉</button></div><small id="notice">Preview only — AI and voice services are not connected yet.</small></div><div class="core"><div class="core-ring"><div class="core-inner">J</div></div><span>JARVIS CORE</span><small>Awaiting secure setup</small></div></div>
+      <div class="section-head"><div><div class="eyebrow">YOUR WORKSPACE</div><h2>At a glance</h2></div><span class="pill">UK time · Europe/London</span></div>
+      <div class="cards">
+        <article class="tile"><div class="tile-top"><span class="tile-icon">◉</span><span class="tag">PERSONAL</span></div><h3>Personal assistant</h3><p>Email priorities, calendar, reminders and daily plan.</p><button class="text-link" data-go="personal">Open workspace →</button></article>
+        <article class="tile"><div class="tile-top"><span class="tile-icon">▣</span><span class="tag">CAREER</span></div><h3>Job search</h3><p>Retail roles, suitable remote work and graduate opportunities.</p><button class="text-link" data-go="jobs">Open workspace →</button></article>
+        <article class="tile"><div class="tile-top"><span class="tile-icon">◇</span><span class="tag">RESELLING</span></div><h3>Reselling</h3><p>Find demand-led products, calculate margins and review buys.</p><button class="text-link" data-go="reselling">Open workspace →</button></article>
+        <article class="tile"><div class="tile-top"><span class="tile-icon">⌁</span><span class="tag">MARKETS</span></div><h3>Trading</h3><p>NQ analysis, ES context, trade journal and account analytics.</p><button class="text-link" data-go="trading">Open workspace →</button></article>
+      </div>
+      <div class="section-head"><div><div class="eyebrow">NEXT UP</div><h2>Setup checklist</h2></div></div>
+      <div class="checklist"><div><span class="check">1</span><div><b>Secure account and hosting</b><small>Choose hosting, authentication and encrypted storage.</small></div><span class="state">TO DO</span></div><div><span class="check">2</span><div><b>Connect personal accounts</b><small>Gmail, university Outlook and Apple Calendar.</small></div><span class="state">TO DO</span></div><div><span class="check">3</span><div><b>Enable messaging</b><small>WhatsApp first; check Instagram and other channel permissions.</small></div><span class="state">TO DO</span></div><div><span class="check">4</span><div><b>Trading and marketplace connections</b><small>TradingView, MetaTrader, eBay and Vinted.</small></div><span class="state">TO DO</span></div></div>
+    </section>
+    <section id="personal" class="view hidden"><div class="section-head"><div><div class="eyebrow">PERSONAL</div><h2>Your day, organised</h2></div></div><div class="cards"><article class="tile"><span class="tag">EMAIL</span><h3>Important messages</h3><p>Separate personal Gmail and university Outlook priorities.</p><span class="state">NOT CONNECTED</span></article><article class="tile"><span class="tag">CALENDAR</span><h3>Apple Calendar</h3><p>Events, deadlines and reminders in UK time.</p><span class="state">NOT CONNECTED</span></article><article class="tile"><span class="tag">DAILY PLAN</span><h3>Tasks and reminders</h3><p>Morning summary and a prioritised to-do list.</p><span class="state">NOT CONNECTED</span></article></div></section>
+    <section id="jobs" class="view hidden"><div class="eyebrow">CAREER</div><h2>Find your next role</h2><p class="muted">Initial focus: Birmingham retail, suitable remote roles and graduate opportunities. Applications and tailored cover letters are prepared for your approval before submission.</p><div class="tile wide"><h3>Job search profile</h3><p>CV received · Retail experience · Delivery and customer service · BA Business Management in progress</p><span class="state">SEARCH NOT STARTED</span></div></section>
+    <section id="reselling" class="view hidden"><div class="eyebrow">RESELLING</div><h2>Find worthwhile opportunities</h2><p class="muted">Starting budget: £100. Focus on clothing and shoes, while also considering tech and other proven-demand categories.</p><div class="tile wide"><h3>Buying rules</h3><p>Calculate fees, postage and net profit. Reinvest realised profits by default. Ask for your approval before purchases or increasing spend.</p><span class="state">MARKETPLACES NOT CONNECTED</span></div></section>
+    <section id="trading" class="view hidden"><div class="eyebrow">TRADING</div><h2>NQ strategy and journal</h2><p class="muted">NQ primary market · ES correlation · Higher-timeframe context with lower-timeframe IFVG confirmation.</p><div class="cards"><article class="tile"><h3>Personal account</h3><p>Proposed risk band: 0.5%–2% per trade, subject to verified sizing and safeguards.</p><span class="state">NOT CONNECTED</span></article><article class="tile"><h3>Funded accounts</h3><p>Analysis and recommendations for your manual execution, respecting each firm's rules.</p><span class="state">NOT CONNECTED</span></article><article class="tile"><h3>Trade journal</h3><p>Entries, exits, rationale, screenshots where supported, P&amp;L and performance.</p><span class="state">AWAITING DATA SOURCE</span></article></div></section>
+    <footer>JARVIS · PRIVATE WORKSPACE <span>All account connections require your authorisation.</span></footer>
+  </main>
+</div><script src="app.js"></script>
+</body></html>
